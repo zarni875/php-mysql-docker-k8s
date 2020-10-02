@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  # any PVC name
+  name: mysql-pv
+spec:
+  storageClassName: manual
+  accessModes:
+  # ReadWriteMany(RW from multi nodes), ReadWriteOnce(RW from a node), ReadOnlyMany(R from multi nodes)
+    - ReadWriteMany
+  resources:
+    requests:
+       # storage size to use
+      storage: 5Gi
+
