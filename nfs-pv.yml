@@ -16,6 +16,6 @@ spec:
     Retain
   nfs:
     # NFS server's definition
-    path: /mnt/data
-    server: 192.168.14.11
+    path: /mnt/cloud/data
+    server: 192.168.14.10
     readOnly: false
