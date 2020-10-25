@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   # any PVC name
-  name: mysql-pv
+  name: mysql-pvc
 spec:
   storageClassName: manual
   accessModes:
