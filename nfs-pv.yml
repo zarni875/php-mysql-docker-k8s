@@ -2,9 +2,9 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   # any PV name
-  name: zarninfs-pv
+  name: nfs9-pv
 spec:
-  storageClassName: nfs001
+  storageClassName: nfs009
   capacity:
     # storage size
     storage: 10Gi
