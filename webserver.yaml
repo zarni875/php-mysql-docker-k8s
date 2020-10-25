@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webserver
+  name: znwebserver
   labels:
     app: apache
 spec:
@@ -26,4 +26,4 @@ spec:
         - name: hostvol
           persistentVolumeClaim:
             # PVC name you created
-            claimName: nfs-pvc
+            claimName: nfs9-pvc
