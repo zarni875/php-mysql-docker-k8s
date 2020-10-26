@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   # any PVC name
-  name: nfs3-pvc
+  name: zarninfs-pvc
 spec:
   storageClassName: nfs009
   accessModes:
